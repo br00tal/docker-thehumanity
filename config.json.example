@@ -1,0 +1,52 @@
+{
+  "thehumanity": {
+    "debug": false,
+    "cardPacks": {
+      "files": [
+        "v1.cards",
+        "v2.cards",
+        "v3.cards",
+        "x1.cards",
+        "x2.cards",
+        "x3.cards",
+        "x4.cards",
+        "x5.cards",
+        "x6.cards"
+      ],
+      "defaults": [
+        "v1.cards",
+        "v2.cards",
+        "v3.cards",
+        "x1.cards",
+        "x2.cards",
+        "x3.cards",
+        "x4.cards",
+        "x5.cards",
+        "x6.cards"
+      ],
+      "keepLoaded": false
+    },
+    "nickservPassword": "your_password",
+    "web": {
+      "enabled": false,
+      "host": "0.0.0.0",
+      "port": 4242,
+      "onlyRunWeb": false
+    }
+  },
+  "defaults": {
+    "nick": "your_nick",
+    "realName": "your_name",
+    "port": 6697,
+    "secure": true,
+    "prefix": "!"
+  },
+  "servers": [
+    {
+      "host": "irc.somenetwork.org",
+      "channels": [
+        "#some_channel"
+      ]
+    }
+  ]
+}
